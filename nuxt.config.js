@@ -1,9 +1,9 @@
 
 export default {
   mode: 'universal',
-  router: {
-    base: '/dist/'
-  },
+  // router: {
+  //   base: '/dist/'
+  // },
   /*
   ** Headers of the page
   */
