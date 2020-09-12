@@ -2512,6 +2512,11 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
+date-fns@^2.6.0:
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.16.1.tgz#05775792c3f3331da812af253e1a935851d3834b"
+  integrity sha512-sAJVKx/FqrLYHAQeN7VpJrPhagZc9R4ImZIWYRFZaaohR3KzmuK88touwsSwSVT8Qcbd4zoDsnGfX4GFB4imyQ==
+
 date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
@@ -4581,9 +4586,9 @@ node-emoji@^1.8.1:
     lodash.toarray "^4.4.0"
 
 node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-libs-browser@^2.2.1:
   version "2.2.1"
@@ -7132,12 +7137,13 @@ uuid@^3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
   integrity sha512-pW0No1RGHgzlpHJO1nsVrHKpOEIxkGg1xB+v0ZmdNH5OAeAwzAVrCnI2/6Mtx+Uys6iaylxa+D3g4j63IKKjSQ==
 
-v-calendar@^1.0.0-beta.22:
-  version "1.0.0-beta.22"
-  resolved "https://registry.yarnpkg.com/v-calendar/-/v-calendar-1.0.0-beta.22.tgz#029673fa5cdd8ca4a567bdb5e0901acf57edd1de"
-  integrity sha512-8OrCCzKetnrjs4Ki0vL57xxE6qxj6el9qMGg+gM1nW/JmpeH9njA3ZtGML3FO9XEiliIlvUkzPSBhI3IMOrH9w==
+v-calendar@^1.0.0-beta.16:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/v-calendar/-/v-calendar-1.0.8.tgz#35c515749b6c5a001c815a232acfa0d85b569f6b"
+  integrity sha512-2st0wvSM7oGTOQixVMFHAEPjGBWEJmAhBDE6NYR5MB9Owe1d/pR5+A1OB+/HICXbuiKMjG8KzDpeySnPECddsw==
   dependencies:
-    lodash "^4.17.11"
+    date-fns "^2.6.0"
+    lodash "^4.17.15"
     popper.js "^1.14.7"
 
 vary@^1.1.2, vary@~1.1.2:
